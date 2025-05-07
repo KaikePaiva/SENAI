@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgba(20, 121, 204, 0.171);
+
+}
+.menu p{
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+}
