@@ -17,6 +17,12 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+img{
+    max-width: 320px;
+    padding-bottom: 8px;
+
+}
+
 .menu-titulo {
     text-align: center;
     font-size: 22px;
@@ -31,10 +37,11 @@ body {
     padding: 12px 0;
     margin-bottom: 10px;
     text-align: center;
-    border: none;
+    border: 1px solid black;
     border-radius: 5px;
     color: white;
     font-size: 16px;
+    
 }
 
 .menu-item:hover {
@@ -42,7 +49,8 @@ body {
 }
 
 a{
-    background-color: #4683b44d;
+    color: rgb(35, 46, 56);
     text-decoration: none;
+   
     
 }
