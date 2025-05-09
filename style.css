@@ -10,6 +10,7 @@ body {
 
 .menu-container {
     width: 320px;
+    height: auto;
     padding: 20px;
     background-color: #f0f8ff;
     border: 2px solid #4682b4;
@@ -17,10 +18,21 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-img{
-    max-width: 320px;
-    padding-bottom: 8px;
+.imagemFirjan {
+    width: 100%;
+    height: auto;
+    min-height: 80px; /* Altura mínima para garantir visibilidade mesmo sem a imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
+img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Elimina espaço extra abaixo da imagem */
+    padding-bottom: 8px;
 }
 
 .menu-titulo {
