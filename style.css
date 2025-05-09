@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start; /* Alinha ao topo em vez de centralizar */
+    min-height: 100vh; /* Usa min-height em vez de height */
     margin: 0;
     background-color: #f5f5f5;
+    padding: 20px 0; /* Adiciona espaço no topo e na base */
 }
 
 .menu-container {
@@ -20,18 +21,15 @@ body {
 
 .imagemFirjan {
     width: 100%;
-    height: auto;
-    min-height: 80px; /* Altura mínima para garantir visibilidade mesmo sem a imagem */
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
 }
 
 img {
     max-width: 100%;
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Elimina espaço extra abaixo da imagem */
+    height: auto;
+    max-height: 150px; /* Limita a altura da imagem */
+    object-fit: contain; /* Mantém a proporção da imagem */
     padding-bottom: 8px;
 }
 
